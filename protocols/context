@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "activity_path": "https://raw.githubusercontent.com/natalia-muzyka/test-schema/main/activities/",
+    "activity_path": "https://raw.githubusercontent.com/natalia-muzyka/test-schema2/main/activities/",
     "activity__1": {
       "@id": "activity_path:activity__1/activity__1_schema",
       "@type": "@id"
