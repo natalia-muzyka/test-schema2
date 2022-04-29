@@ -1,0 +1,68 @@
+{
+  "name": "Screen1__2",
+  "question": "123",
+  "description": "",
+  "isVis": false,
+  "isOptionalText": false,
+  "timer": 0,
+  "allowEdit": true,
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@type": "reproschema:Field",
+  "@id": "Screen1__2",
+  "skos:prefLabel": "Screen1__2",
+  "skos:altLabel": "Screen1__2",
+  "schema:description": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "header": "",
+  "section": "",
+  "ui": {
+    "inputType": "radio",
+    "allow": [
+      "autoAdvance"
+    ]
+  },
+  "responseOptions": {
+    "valueType": "xsd:anyURI",
+    "enableNegativeTokens": false,
+    "scoring": true,
+    "responseAlert": false,
+    "randomizeOptions": false,
+    "removeBackOption": false,
+    "colorPalette": false,
+    "multipleChoice": false,
+    "schema:minValue": 1,
+    "schema:maxValue": 3,
+    "choices": [
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 1",
+        "schema:value": 0,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": "",
+        "schema:score": 1
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 2",
+        "schema:value": 1,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": "",
+        "schema:score": 2
+      },
+      {
+        "@type": "schema:option",
+        "schema:name": "Option 3",
+        "schema:value": 2,
+        "reprolib:terms/isVis": false,
+        "schema:color": "",
+        "schema:description": "",
+        "schema:score": 3
+      }
+    ]
+  }
+}

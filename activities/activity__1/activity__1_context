@@ -1,0 +1,22 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "Screen1": {
+      "@id": "activity__1:Screen1",
+      "@type": "@id"
+    },
+    "Screen1__2": {
+      "@id": "activity__1:Screen1__2",
+      "@type": "@id"
+    },
+    "Screen1__1": {
+      "@id": "activity__1:Screen1__1",
+      "@type": "@id"
+    },
+    "cumulatives": {
+      "@id": "activity__1:cumulatives",
+      "@type": "@id"
+    },
+    "activity__1": "https://raw.githubusercontent.com/YOUR-PATH-TO-ITEM-FOLDER"
+  }
+}

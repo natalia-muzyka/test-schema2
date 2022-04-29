@@ -1,0 +1,73 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json"
+  ],
+  "@id": "activity 1",
+  "@type": "reproschema:Activity",
+  "skos:prefLabel": "activity 1",
+  "skos:altLabel": "activity 1",
+  "schema:description": "activity 1",
+  "schema:splash": "",
+  "schema:image": "",
+  "schema:schemaVersion": "0.0.1",
+  "schema:version": "0.0.1",
+  "preamble": "",
+  "isReviewerActivity": false,
+  "isOnePageAssessment": false,
+  "scoringLogic": {},
+  "repronim:timeUnit": "yearmonthdate",
+  "isPrize": false,
+  "isVis": false,
+  "ui": {
+    "order": [
+      "Screen1",
+      "Screen1__2",
+      "Screen1__1"
+    ],
+    "shuffle": false,
+    "addProperties": [
+      {
+        "variableName": "Screen1",
+        "isAbout": "Screen1",
+        "isVis": true
+      },
+      {
+        "variableName": "Screen1__2",
+        "isAbout": "Screen1__2",
+        "isVis": true
+      },
+      {
+        "variableName": "Screen1__1",
+        "isAbout": "Screen1__1",
+        "isVis": true
+      }
+    ],
+    "allow": []
+  },
+  "subScales": [],
+  "finalSubScale": [],
+  "hasResponseIdentifier": false,
+  "compute": [
+    {
+      "jsExpression": "Screen1 + Screen1__2 + Screen1__1",
+      "variableName": "Title",
+      "description": "Description",
+      "direction": true
+    }
+  ],
+  "messages": [
+    {
+      "jsExpression": "Title >= 3",
+      "message": "Message at or above\n\n",
+      "outputType": "cumulative",
+      "hideActivity": true
+    },
+    {
+      "jsExpression": "Title < 3",
+      "message": "Message out of range\n\n",
+      "outputType": "cumulative",
+      "hideActivity": true
+    }
+  ],
+  "scoreOverview": "Overview"
+}

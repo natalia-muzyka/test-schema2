@@ -1,0 +1,31 @@
+{
+  "@context": [
+    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
+    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
+  ],
+  "@type": "reproschema:Protocol",
+  "_id": "623b09ddde7a36762057f867",
+  "@id": "simple cumulative (not chained)_schema",
+  "skos:prefLabel": "simple cumulative (not chained)",
+  "schema:description": "simple cumulative (not chained)",
+  "schema:image": "",
+  "schema:schemaVersion": "1.0.0",
+  "schema:version": "1.0.0",
+  "landingPageContent": "",
+  "landingPageType": "markdown",
+  "landingPage": "",
+  "ui": {
+    "addProperties": [
+      {
+        "variableName": "activity__1",
+        "isAbout": "activity__1",
+        "prefLabel": "activity 1",
+        "isVis": true
+      }
+    ],
+    "order": [
+      "activity__1"
+    ],
+    "shuffle": false
+  }
+}
