@@ -1,10 +1,9 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
-    "https://raw.githubusercontent.com/YOUR-PROTOCOL-CONTEXT-FILE"
-  ],
+    "https://raw.githubusercontent.com/natalia-muzyka/test-schema/main/protocols/context"
+],
   "@type": "reproschema:Protocol",
-  "_id": "623b09ddde7a36762057f867",
   "@id": "simple cumulative (not chained)_schema",
   "skos:prefLabel": "simple cumulative (not chained)",
   "schema:description": "simple cumulative (not chained)",
