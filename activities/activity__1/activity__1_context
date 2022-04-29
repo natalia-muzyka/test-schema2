@@ -13,6 +13,6 @@
       "@id": "activity__1:Screen1__1",
       "@type": "@id"
     },
-    "activity__1": "https://raw.githubusercontent.com/natalia-muzyka/test-schema/main/activities/activity__1/items/"
+    "activity__1": "https://raw.githubusercontent.com/natalia-muzyka/test-schema2/main/activities/activity__1/items/"
   }
 }
