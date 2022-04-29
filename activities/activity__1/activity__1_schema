@@ -1,7 +1,7 @@
 {
   "@context": [
    "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
-    "https://raw.githubusercontent.com/natalia-muzyka/test-schema/main/activities/activity__1/activity__1_context"
+    "https://raw.githubusercontent.com/natalia-muzyka/test-schema2/main/activities/activity__1/activity__1_context"
   ],
   "@id": "activity 1",
   "@type": "reproschema:Activity",
