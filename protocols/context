@@ -1,7 +1,7 @@
 {
   "@context": {
     "@version": 1.1,
-    "activity_path": "https://raw.githubusercontent.com/ReproNim/reproschema/master/activities/",
+    "activity_path": "https://raw.githubusercontent.com/natalia-muzyka/test-schema/main/activities/",
     "activity__1": {
       "@id": "activity_path:activity__1/activity__1_schema",
       "@type": "@id"
