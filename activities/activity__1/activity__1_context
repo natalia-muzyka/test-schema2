@@ -13,10 +13,6 @@
       "@id": "activity__1:Screen1__1",
       "@type": "@id"
     },
-    "cumulatives": {
-      "@id": "activity__1:cumulatives",
-      "@type": "@id"
-    },
-    "activity__1": "https://raw.githubusercontent.com/YOUR-PATH-TO-ITEM-FOLDER"
+    "activity__1": "https://raw.githubusercontent.com/natalia-muzyka/test-schema/main/activities/activity__1/items/"
   }
 }
