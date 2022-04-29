@@ -1,7 +1,7 @@
 {
   "@context": [
     "https://raw.githubusercontent.com/jj105/reproschema-context/master/context.json",
-    "https://raw.githubusercontent.com/natalia-muzyka/test-schema/main/protocols/context"
+    "https://raw.githubusercontent.com/natalia-muzyka/test-schema2/main/protocols/context"
 ],
   "@type": "reproschema:Protocol",
   "@id": "simple cumulative (not chained)_schema",
